@@ -3,38 +3,31 @@
 **GitHub:** https://github.com/fogonmars/architecture-interview-qa  
 **Live:** https://notepads-6389e.web.app/interview/
 
-Numbered **question + answer** for DB · Frontend · Backend · AWS/Azure · Angular · **AI** · **Enterprise real apps**. Depth is **Technical / Solution / Enterprise Architect (~12 years)**.
+Depth: **Technical / Solution / Enterprise Architect (~12 years)**.
 
-| File | What | Live HTML |
-|---|---|---|
-| [00-levels.md](00-levels.md) | How to study at architect depth | `/interview/00-levels.html` |
-| [01-database.md](01-database.md) | Internals, SQL/NoSQL, HA, CDC | `/interview/01-database.html` |
-| [02-frontend.md](02-frontend.md) | React, rendering, MFE, CWV, sockets | `/interview/02-frontend.html` |
-| [03-backend.md](03-backend.md) | Java/Go/Node, hexagonal, sagas, BFF | `/interview/03-backend.html` |
-| [04-aws-azure.md](04-aws-azure.md) | Same job, two clouds | `/interview/04-aws-azure.html` |
-| [05-angular.md](05-angular.md) | Angular (100) | `/interview/05-angular.html` |
-| [06-dsa-leetcode.md](06-dsa-leetcode.md) | Optional coding screen | `/interview/06-dsa-leetcode.html` |
-| [07-enterprise.md](07-enterprise.md) | **Real apps:** Netflix, commerce, Zerodha, ChatGPT, claims… reason → DB → BE → FE → AI | `/interview/07-enterprise.html` |
-| [08-sql-coding.md](08-sql-coding.md) | SQL architects still write | `/interview/08-sql-coding.html` |
-| [09-ai.md](09-ai.md) | AI basics → 2026 (RAG, agents, evals) | `/interview/09-ai.html` |
-| [10-mobile.md](10-mobile.md) | **React Native / Android / iOS** | `/interview/10-mobile.html` |
+## Files ↔ live ↔ notebooks ↔ DSA
 
-**Full notebooks (deep chapters):**
+| File | Live | Deep notebook | Coding / DSA |
+|---|---|---|---|
+| [00-levels.md](00-levels.md) | [/interview/00-levels.html](https://notepads-6389e.web.app/interview/00-levels.html) | Hub | Start here |
+| [01-database.md](01-database.md) | [01-database.html](https://notepads-6389e.web.app/interview/01-database.html) | [/dbnotes/](https://notepads-6389e.web.app/dbnotes/) | [06](06-dsa-leetcode.md) DB rows + [08 SQL](08-sql-coding.md) |
+| [02-frontend.md](02-frontend.md) | [02-frontend.html](https://notepads-6389e.web.app/interview/02-frontend.html) | [/frontend/](https://notepads-6389e.web.app/frontend/) | [06](06-dsa-leetcode.md) FE rows |
+| [03-backend.md](03-backend.md) | [03-backend.html](https://notepads-6389e.web.app/interview/03-backend.html) | [/backend/](https://notepads-6389e.web.app/backend/) | [06](06-dsa-leetcode.md) BE rows |
+| [04-aws-azure.md](04-aws-azure.md) | [04-aws-azure.html](https://notepads-6389e.web.app/interview/04-aws-azure.html) | DB 36 · BE 35 · FE 39 | Design > DSA |
+| [05-angular.md](05-angular.md) | [05-angular.html](https://notepads-6389e.web.app/interview/05-angular.html) | FE 26 | [06](06-dsa-leetcode.md) FE + Rx |
+| [06-dsa-leetcode.md](06-dsa-leetcode.md) | [06-dsa-leetcode.html](https://notepads-6389e.web.app/interview/06-dsa-leetcode.html) | — | **Mapped per section** |
+| [07-enterprise.md](07-enterprise.md) | [07-enterprise.html](https://notepads-6389e.web.app/interview/07-enterprise.html) | Industry chapters | Real apps reason→stack |
+| [08-sql-coding.md](08-sql-coding.md) | [08-sql-coding.html](https://notepads-6389e.web.app/interview/08-sql-coding.html) | dbnotes 09/11 | Required for data/BE |
+| [09-ai.md](09-ai.md) | [09-ai.html](https://notepads-6389e.web.app/interview/09-ai.html) | [/ai/](https://notepads-6389e.web.app/ai/) | [06](06-dsa-leetcode.md) AI row (rare code) |
+| [10-mobile.md](10-mobile.md) | [10-mobile.html](https://notepads-6389e.web.app/interview/10-mobile.html) | [FE 40](https://notepads-6389e.web.app/frontend/40-react-native-android-ios.html) | [06](06-dsa-leetcode.md) mobile |
+| [11-specialist.md](11-specialist.md) | [11-specialist.html](https://notepads-6389e.web.app/interview/11-specialist.html) | FE [41](https://notepads-6389e.web.app/frontend/41-webrtc-realtime-media.html)–[46](https://notepads-6389e.web.app/frontend/46-graphql-federation.html) | Design-heavy |
 
-- https://notepads-6389e.web.app/dbnotes/ · [Practical vs bubble](../dbnotes/PRACTICAL_VS_BUBBLE.md)
-- https://notepads-6389e.web.app/frontend/ · [Practical vs bubble](../frontend/PRACTICAL_VS_BUBBLE.md)
-- https://notepads-6389e.web.app/backend/ · [Practical vs bubble](../backend/PRACTICAL_VS_BUBBLE.md)
-- https://notepads-6389e.web.app/ai/ · [Practical vs bubble](../ai/PRACTICAL_VS_BUBBLE.md) (**separate AI section**)
+**Practical vs bubble:** [dbnotes](../dbnotes/PRACTICAL_VS_BUBBLE.md) · [frontend](../frontend/PRACTICAL_VS_BUBBLE.md) · [backend](../backend/PRACTICAL_VS_BUBBLE.md) · [ai](../ai/PRACTICAL_VS_BUBBLE.md)
 
-**Scenario interviews:** DB 30 · FE 30 · BE 29 · AI 23
+**Scenarios:** DB 30 · FE 30 · BE 29 · AI 23
 
 ## How to drill
 
-1. Cover the answer. Say it in **90 seconds**.  
-2. Name the **failure mode**.  
-3. For product names (Netflix, Copilot…): use the template in [07](07-enterprise.md) — constraints → SoR → projections → refuse.
-
-```markdown
-**N. Question?**
-Answer in 2–6 sentences. Failure in one line if useful.
-```
+1. Cover answer → **90 seconds** + **failure**.  
+2. Open the **notebook** link for depth.  
+3. If they code → [06](06-dsa-leetcode.md) row for **your** section only.

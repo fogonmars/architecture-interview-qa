@@ -5,6 +5,8 @@ Architect + **React-primary** handbook. Angular, Vue, and Lit appear as **peers*
 **Topics:** [Rendering](#rendering-csr-ssr-ssg-isr-rsc-hydration) · [Next vs Vite](#next-vs-vite) · [Angular vs React](#angular-vs-react-peers) · [State](#state-redux-query-context-ngrx) · [MFE](#micro-frontends-and-module-federation) · [Headless](#headless-cms-vs-coupled) · [BFF and APIs](#bff-graphql-vs-rest) · [Auth and XSS](#cookies-jwt-csp-xss) · [CWV](#core-web-vitals) · [a11y](#accessibility-wcag) · [Bundlers](#bundlers) · [Hosting](#nginx-cdn-aws-azure) · [Realtime](#sockets-sse-web-push) · [PWA / i18n / tokens / L7](#pwa-i18n-tokens-l7)
 
 ---
+**Notebook:** [/frontend/](https://notepads-6389e.web.app/frontend/) · **DSA:** [06](06-dsa-leetcode.md) (FE) · **Mobile:** [10](10-mobile.md) · **Specialist:** [11](11-specialist.md)
+
 
 ## Rendering (CSR / SSR / SSG / ISR / RSC / hydration)
 

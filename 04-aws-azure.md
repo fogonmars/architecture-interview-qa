@@ -5,6 +5,8 @@ Same job, two clouds. Every answer maps **AWS ↔ Azure**; **GCP** is named when
 **Topics:** [Well-Architected](#well-architected) · [Landing zone & network](#landing-zone--network) · [Identity & keys](#identity--keys) · [Relational](#relational) · [NoSQL, cache, search](#nosql-cache-search) · [Lake & warehouse](#lake--warehouse) · [Messaging](#messaging) · [Compute](#compute) · [API & edge](#api--edge) · [Frontend hosts & auth](#frontend-hosts--auth) · [Observe & IaC](#observe--iac) · [India, cost, HA/DR](#india-cost-hadr)
 
 ---
+**Notebooks:** [DB 36](../dbnotes/36-aws-azure-data-platforms/README.md) · [BE 35](../backend/35-aws-azure-workloads/README.md) · [FE 39](../frontend/39-aws-azure-frontend/README.md) · **DSA:** design > code ([06](06-dsa-leetcode.md))
+
 
 ## Well-Architected
 

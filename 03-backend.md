@@ -14,6 +14,8 @@ and scenario drills in [29](../backend/29-interview/README.md) and
 [Tenancy, compliance, BaaS](#tenancy-compliance-baas)
 
 ---
+**Notebook:** [/backend/](https://notepads-6389e.web.app/backend/) · **DSA:** [06](06-dsa-leetcode.md) (BE) · **SQL:** [08](08-sql-coding.md)
+
 
 ## Runtimes
 

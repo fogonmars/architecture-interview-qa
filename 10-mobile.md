@@ -5,6 +5,8 @@ Architect bar for **mobile clients**. Phone apps are **clients**; SoR stays on t
 **Chapter:** [frontend 40](../frontend/40-react-native-android-ios/README.md) · [23 PWA](../frontend/23-pwa-mobile-web/README.md) · [38 push](../frontend/38-realtime-sockets-notifications/README.md) · real apps [07](07-enterprise.md).
 
 ---
+**Notebook:** [FE 40](../frontend/40-react-native-android-ios/README.md) · **DSA:** [06](06-dsa-leetcode.md) (mobile) · **FE Q&A:** [02](02-frontend.md)
+
 
 **1. PWA vs React Native vs native — how do you choose?**  
 URL-enough (employees, SMS links, SEO): responsive; add PWA for install/offline on Android. Store presence, camera/files/offline-as-core: RN or native. Extreme platform UI/perf or heavy OEM: Kotlin/Swift. Fail: RN because “we know React” with no store/hardware need.

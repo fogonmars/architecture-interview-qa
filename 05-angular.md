@@ -12,6 +12,8 @@ fundamentals to advanced. Each answer is intentionally concise — follow [angul
 [Tooling & misc](#tooling--misc)
 
 ---
+**Notebook:** [FE 26](../frontend/26-angular-vue-lit/README.md) · **DSA:** [06](06-dsa-leetcode.md) (FE + Rx)
+
 
 ## Fundamentals
 

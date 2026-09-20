@@ -6,6 +6,8 @@ If you cannot name a metric after any of them (`EXPLAIN ANALYZE`, lag, slot LSN,
 **Chapters:** [Internals](../dbnotes/01-architecture/internals.md) · [Transactions](../dbnotes/01-architecture/transactions.md) · [Indexes](../dbnotes/01-architecture/indexes.md) · [Types](../dbnotes/03-database-types/catalog.md) · [Replicas](../dbnotes/04-replication-ha/read-replicas.md) · [Scenarios](../dbnotes/30-interview-and-architecture-scenarios/README.md). **Topics:** [Query path](#query-path-wal-checkpoint-vacuum) · [MVCC](#mvcc-and-isolation) · [Indexes](#explain-indexes-n1-pools) · [Normalization](#normalization) · [Workloads](#oltp-olap-search-cache-stream-graph-ingest) · [Engines](#engines-and-when) · [HA/DR](#replicas-ha-dr) · [Scale/CDC](#partition-shard-cdc-outbox) · [Ops/compliance](#managed-compliance-industry)
 
 ---
+**Notebook:** [/dbnotes/](https://notepads-6389e.web.app/dbnotes/) · **DSA/SQL:** [06](06-dsa-leetcode.md) (DB) · [08](08-sql-coding.md) · **Scenarios:** [dbnotes 30](../dbnotes/30-interview-and-architecture-scenarios/README.md)
+
 
 ## Query path, WAL, checkpoint, vacuum
 
