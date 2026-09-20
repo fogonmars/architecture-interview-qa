@@ -1,5 +1,8 @@
 # Interview Q&A — DB · Frontend · Backend · AWS/Azure · Angular
 
+**GitHub:** https://github.com/fogonmars/architecture-interview-qa  
+**Live:** https://notepads-6389e.web.app/interview/
+
 Numbered **question + answer** for GitHub and the live site. **480 Q&A** (100 DB · 100 frontend · 100 backend · 80 AWS/Azure · 100 Angular).
 
 | File | What | Live HTML |
