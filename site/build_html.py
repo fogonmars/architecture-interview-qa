@@ -29,6 +29,8 @@ NAV = [
         ("09-ai.html", "AI (basics→2026)"),
         ("10-mobile.html", "RN / Android / iOS"),
         ("11-specialist.html", "WebRTC…federation"),
+        ("12-high-level-terms.html", "Terms index"),
+        ("12-cloud-terms.html", "Cloud terms"),
     ]),
 ]
 
