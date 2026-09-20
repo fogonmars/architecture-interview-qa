@@ -1,0 +1,5 @@
+site/*.html
+site/assets/app.js
+.DS_Store
+__pycache__/
+.venv/
