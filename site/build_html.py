@@ -15,6 +15,7 @@ SKIP_PARTS = {".venv", "site", "node_modules"}
 NAV = [
     ("Start", [
         ("index.html", "Overview"),
+        ("00-levels.html", "12y architect path"),
     ]),
     ("Q&A", [
         ("01-database.html", "Database"),
@@ -22,6 +23,10 @@ NAV = [
         ("03-backend.html", "Backend"),
         ("04-aws-azure.html", "AWS vs Azure"),
         ("05-angular.html", "Angular (100)"),
+        ("06-dsa-leetcode.html", "DSA (optional)"),
+        ("07-enterprise.html", "Real apps (Netflix…)"),
+        ("08-sql-coding.html", "SQL (architect)"),
+        ("09-ai.html", "AI (basics→2026)"),
     ]),
 ]
 
@@ -95,7 +100,7 @@ def render_html(title: str, body: str) -> str:
   <script>
   (function () {{
     var s = location.pathname.split("/").filter(Boolean)[0];
-    if (s === "frontend" || s === "dbnotes" || s === "backend" || s === "interview") {{
+    if (s === "frontend" || s === "dbnotes" || s === "backend" || s === "interview" || s === "ai") {{
       document.write('<base href="/' + s + '/">');
     }}
   }})();
@@ -136,7 +141,7 @@ def write_app_js() -> None:
     lines.append("""
 function bookPrefix() {
   const seg = location.pathname.split("/").filter(Boolean)[0];
-  if (seg === "frontend" || seg === "dbnotes" || seg === "backend" || seg === "interview") return "/" + seg + "/";
+  if (seg === "frontend" || seg === "dbnotes" || seg === "backend" || seg === "interview" || seg === "ai") return "/" + seg + "/";
   return "";
 }
 
@@ -147,7 +152,7 @@ function pageHref(file) {
 function currentPage() {
   const parts = location.pathname.split("/").filter(Boolean);
   let last = parts[parts.length - 1] || "index.html";
-  if (last === "frontend" || last === "dbnotes" || last === "backend" || last === "interview") return "index.html";
+  if (last === "frontend" || last === "dbnotes" || last === "backend" || last === "interview" || last === "ai") return "index.html";
   if (last === "README.md" && parts.length >= 2) return parts[parts.length - 2] + ".html";
   if (last.endsWith(".md")) return last.replace(/\\.md$/, ".html");
   return last || "index.html";
@@ -279,7 +284,10 @@ def main() -> None:
 
 INDEX_JUMP = """
 <div class="jump-grid">
-  <a class="card" href="01-database.html"><strong>Database</strong><span>MVCC, indexes, HA, NoSQL, CDC — numbered Q&A.</span></a>
+  <a class="card" href="00-levels.html"><strong>12y architect path</strong><span>How to study this repo at EA / L7 depth.</span></a>
+  <a class="card" href="07-enterprise.html"><strong>Real apps</strong><span>Netflix, commerce, Zerodha, ChatGPT, claims — reason → stack.</span></a>
+  <a class="card" href="09-ai.html"><strong>AI Q&A</strong><span>RAG, agents, evals, practical vs bubble.</span></a>
+  <a class="card" href="01-database.html"><strong>Database</strong><span>MVCC, indexes, HA, NoSQL, CDC.</span></a>
   <a class="card" href="02-frontend.html"><strong>Frontend</strong><span>CSR/SSR, MFE, CWV, store, sockets.</span></a>
   <a class="card" href="03-backend.html"><strong>Backend</strong><span>Java/Go/Node, sagas, BFF, Redis, JWT.</span></a>
   <a class="card" href="04-aws-azure.html"><strong>AWS vs Azure</strong><span>Same job, two names.</span></a>
