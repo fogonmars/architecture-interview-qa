@@ -1,6 +1,6 @@
-# SQL for architect panels
+# SQL for architect panels (~12 years)
 
-You are not grinding LeetCode SQL for a 2-year job. At **~12 years** panels still ask: **joins, indexes, isolation, EXPLAIN, and “who is SoR.”** Write correct SQL fast, then say the **failure**.
+At **Technical / Solution / Enterprise Architect** depth, panels still ask: **joins, indexes, isolation, EXPLAIN, and who is SoR.** Write correct SQL fast, then name the **failure**.
 
 ## What they expect
 

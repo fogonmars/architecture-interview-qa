@@ -1,7 +1,6 @@
 # Levels: ~12-year architect (this repo’s bar)
 
-**This handbook and interview set are aimed at Technical / Solution / Enterprise Architect depth (~10–15 years, L7 / Manager Architect / EA track).**  
-They are **not** a 2-year IC coding curriculum. Steal the **question**, not Netflix’s logo.
+**This handbook and interview set are aimed at Technical / Solution / Enterprise Architect depth (~10–15 years, L7 / Manager Architect / EA track).** Steal the **question**, not Netflix’s logo.
 
 Live: https://notepads-6389e.web.app/interview/  
 GitHub: https://github.com/fogonmars/architecture-interview-qa
@@ -65,3 +64,6 @@ For **any** product they name (Netflix, Zerodha, ChatGPT, your bank’s claims):
 6. **What you’d refuse** and **residual risk**
 
 Full worked examples: [07-enterprise.md](07-enterprise.md). Industry steal-the-question: [dbnotes 31](../dbnotes/31-industry-case-studies/README.md) · [backend 30](../backend/30-industry/README.md) · [frontend 31](../frontend/31-industry-case-studies/README.md) · [ai 22](../ai/22-industry-case-studies/README.md).
+
+**Mobile clients:** [frontend 40](../frontend/40-react-native-android-ios/README.md) · [10-mobile](10-mobile.md).
+

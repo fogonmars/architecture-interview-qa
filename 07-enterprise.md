@@ -169,6 +169,21 @@ flowchart TD
 
 ---
 
+## 11. Mobile app (React Native / Android / iOS)
+
+| Layer | Practical | Bubble |
+|---|---|---|
+| **Question** | Store binary? Camera/offline core? One JS team or two native teams? | “RN = free React” |
+| **Client** | PWA if URL enough; **RN** for store+JS team; **Kotlin/Swift** for platform depth | Capacitor to hide a slow web app |
+| **API** | Mobile BFF; coarse DTOs; idempotent sync | Chatty per-widget REST |
+| **Push** | FCM + APNs; inbox SoR on server | WebSocket when app is killed |
+| **Auth** | OIDC PKCE; refresh in Keychain/Keystore | AsyncStorage forever |
+| **DB on device** | SQLite/outbox = **cache**, not money SoR | Dual-write without conflict ADR |
+
+**Chapter:** [frontend 40](../frontend/40-react-native-android-ios/README.md) · [interview 10](10-mobile.md).
+
+---
+
 ## Practical vs bubble (cross-cutting)
 
 | Bubble | Practical (12y) |

@@ -27,6 +27,7 @@ NAV = [
         ("07-enterprise.html", "Real apps (Netflix…)"),
         ("08-sql-coding.html", "SQL (architect)"),
         ("09-ai.html", "AI (basics→2026)"),
+        ("10-mobile.html", "RN / Android / iOS"),
     ]),
 ]
 
@@ -292,6 +293,7 @@ INDEX_JUMP = """
   <a class="card" href="03-backend.html"><strong>Backend</strong><span>Java/Go/Node, sagas, BFF, Redis, JWT.</span></a>
   <a class="card" href="04-aws-azure.html"><strong>AWS vs Azure</strong><span>Same job, two names.</span></a>
   <a class="card" href="05-angular.html"><strong>Angular</strong><span>100 Q&A: signals, RxJS, SSR, tests.</span></a>
+  <a class="card" href="10-mobile.html"><strong>Mobile</strong><span>RN / Android / iOS — store trains, push, offline.</span></a>
 </div>
 """
 

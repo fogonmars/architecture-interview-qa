@@ -3,7 +3,7 @@
 **GitHub:** https://github.com/fogonmars/architecture-interview-qa  
 **Live:** https://notepads-6389e.web.app/interview/
 
-Numbered **question + answer** for DB · Frontend · Backend · AWS/Azure · Angular · **AI** · **Enterprise real apps**. Depth is **Technical / Solution / Enterprise Architect (~12 years)** — not a 2-year coding bootcamp.
+Numbered **question + answer** for DB · Frontend · Backend · AWS/Azure · Angular · **AI** · **Enterprise real apps**. Depth is **Technical / Solution / Enterprise Architect (~12 years)**.
 
 | File | What | Live HTML |
 |---|---|---|
@@ -17,6 +17,7 @@ Numbered **question + answer** for DB · Frontend · Backend · AWS/Azure · Ang
 | [07-enterprise.md](07-enterprise.md) | **Real apps:** Netflix, commerce, Zerodha, ChatGPT, claims… reason → DB → BE → FE → AI | `/interview/07-enterprise.html` |
 | [08-sql-coding.md](08-sql-coding.md) | SQL architects still write | `/interview/08-sql-coding.html` |
 | [09-ai.md](09-ai.md) | AI basics → 2026 (RAG, agents, evals) | `/interview/09-ai.html` |
+| [10-mobile.md](10-mobile.md) | **React Native / Android / iOS** | `/interview/10-mobile.html` |
 
 **Full notebooks (deep chapters):**
 
